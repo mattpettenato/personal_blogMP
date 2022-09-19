@@ -1,0 +1,48 @@
+.nav{
+  padding: 1rem;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.nav__header {
+  width: 750px;
+  max-width: 750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__header-title{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nav__header-button{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav__header--subscribe--link {
+    font-size: 0.7rem;
+  }
+
+  .nav__header-title {
+    flex-basis: 10%;
+  }
+
+  .nav__header-title h1 {
+    font-size: 1.5rem;
+  }
+}
+
+

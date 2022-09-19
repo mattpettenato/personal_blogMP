@@ -1,0 +1,20 @@
+@import "card.css";
+@import "nav.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+body {
+  max-width: 80%;
+  height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+  .body {
+    width: 60%;
+  }
+}
